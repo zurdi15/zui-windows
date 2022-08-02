@@ -37,7 +37,7 @@
     "list":
     [
       {
-        "acrylicOpacity": 0.80000000000000004,
+        "acrylicOpacity": 0.8,
         "closeOnExit": "graceful",
         "colorScheme": "One Half Dark",
         "commandline": "powershell.exe",
@@ -58,7 +58,7 @@
         "useAcrylic": true
       },
       {
-        "acrylicOpacity": 0.80000000000000004,
+        "acrylicOpacity": 0.8,
         "closeOnExit": "graceful",
         "colorScheme": "One Half Dark",
         "commandline": "ssh -p 1985 turtle@192.168.1.115",
@@ -80,7 +80,7 @@
         "useAcrylic": true
       },
       {
-        "acrylicOpacity": 0.69999999999999996,
+        "acrylicOpacity": 0.8,
         "closeOnExit": "graceful",
         "colorScheme": "One Half Dark",
         "commandline": "wsl.exe",
