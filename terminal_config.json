@@ -38,23 +38,24 @@
         "list": 
         [
             {
-                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "hidden": false,
-                "name": "Windows PowerShell",
                 "closeOnExit": "graceful",
                 "colorScheme": "One Half Dark",
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe /nologo",
                 "cursorColor": "#FFFFFF",
                 "cursorHeight": 25,
                 "cursorShape": "vintage",
-                "font":
-                    {
-                        "face": "MesloLGM NF",
-                        "size": 10
-                    },
+                "font": 
+                {
+                    "face": "MesloLGM NF",
+                    "size": 10,
+                    "weight": "normal"
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell",
                 "padding": "15",
                 "snapOnInput": true,
-                "tabColor": "#3463c0",
+                "tabColor": "#3463C0",
                 "useAcrylic": true
             },
             {
@@ -70,23 +71,23 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "guid": "{f9ceaf27-504c-58d7-927c-d1d6a7ac7d3c}",
-                "hidden": false,
-                "name": "Ubuntu 22.04.1 LTS",
-                "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
                 "closeOnExit": "graceful",
                 "colorScheme": "One Half Dark",
                 "cursorColor": "#FFFFFF",
                 "cursorHeight": 25,
                 "cursorShape": "vintage",
-                "font":
-                    {
-                        "face": "MesloLGM NF",
-                        "size": 10
-                    },
+                "font": 
+                {
+                    "face": "MesloLGM NF",
+                    "size": 10
+                },
+                "guid": "{f9ceaf27-504c-58d7-927c-d1d6a7ac7d3c}",
+                "hidden": false,
+                "name": "Ubuntu 22.04.1 LTS",
                 "padding": "15",
                 "snapOnInput": true,
-                "tabColor": "#c76e33",
+                "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
+                "tabColor": "#C76E33",
                 "useAcrylic": true
             }
         ]
