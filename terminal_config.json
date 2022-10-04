@@ -49,7 +49,7 @@
                 "cursorShape": "vintage",
                 "font":
                     {
-                        "face": "MesloLGS NF",
+                        "face": "MesloLGM NF",
                         "size": 10
                     },
                 "padding": "15",
@@ -81,7 +81,7 @@
                 "cursorShape": "vintage",
                 "font":
                     {
-                        "face": "MesloLGS NF",
+                        "face": "MesloLGM NF",
                         "size": 10
                     },
                 "padding": "15",
