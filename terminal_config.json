@@ -31,7 +31,7 @@
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{}",
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "experimental.rendering.forceFullRepaint": false,
     "firstWindowPreference": "persistedWindowLayout",
     "initialCols": 150,
@@ -47,6 +47,11 @@
         "list": 
         [
             {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": true,
+                "name": "Command Prompt"
+            },
+            {
                 "closeOnExit": "graceful",
                 "colorScheme": "One Half Dark",
                 "commandline": "%SystemRoot%/System32/WindowsPowerShell/v1.0/powershell.exe /nologo",
@@ -57,7 +62,7 @@
                     "face": "JetBrainsMono NF",
                     "size": 11
                 },
-                "guid": "{}",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell",
                 "opacity": 80,
@@ -65,27 +70,6 @@
                 "snapOnInput": true,
                 "startingDirectory": "%USERPROFILE%",
                 "tabColor": "#3463C0",
-                "useAcrylic": true
-            },
-            {
-                "closeOnExit": "graceful",
-                "colorScheme": "One Half Dark",
-                "cursorColor": "#FFFFFF",
-                "cursorHeight": 25,
-                "cursorShape": "vintage",
-                "font": 
-                {
-                    "face": "JetBrainsMono NF",
-                    "size": 11
-                },
-                "guid": "{}",
-                "hidden": false,
-                "name": "Ubuntu-20.04",
-                "opacity": 80,
-                "padding": "25",
-                "snapOnInput": true,
-                "source": "Windows.Terminal.Wsl",
-                "tabColor": "#C76E33",
                 "useAcrylic": true
             },
             {
@@ -100,14 +84,79 @@
                     "face": "JetBrainsMono NF",
                     "size": 11
                 },
-                "guid": "{}",
+                "guid": "{2795db03-e1c4-4a77-b508-270b69591f4c}",
                 "hidden": false,
-                "icon": "C:/Users/zurdi/Pictures/debian.png",
+                "icon": "C:/Users/%USERNAME%/icons/debian.png",
                 "name": "Bifrost",
                 "opacity": 80,
                 "padding": "25",
                 "snapOnInput": true,
                 "tabColor": "#8B192C",
+                "useAcrylic": true
+            },
+            {
+                "closeOnExit": "graceful",
+                "colorScheme": "One Half Dark",
+                "commandline": "ssh asgard",
+                "cursorColor": "#FFFFFF",
+                "cursorHeight": 25,
+                "cursorShape": "vintage",
+                "font": 
+                {
+                    "face": "JetBrainsMono NF",
+                    "size": 11
+                },
+                "guid": "{4795db03-e1c4-4a77-b508-270b69591f4c}",
+                "hidden": false,
+                "icon": "C:/Users/%USERNAME%/icons/debian.png",
+                "name": "Asgard",
+                "opacity": 80,
+                "padding": "25",
+                "snapOnInput": true,
+                "tabColor": "#8B192C",
+                "useAcrylic": true
+            },
+            {
+                "closeOnExit": "graceful",
+                "colorScheme": "One Half Dark",
+                "commandline": "ssh vanaheim",
+                "cursorColor": "#FFFFFF",
+                "cursorHeight": 25,
+                "cursorShape": "vintage",
+                "font": 
+                {
+                    "face": "JetBrainsMono NF",
+                    "size": 11
+                },
+                "guid": "{3795db03-e1c4-4a77-b508-270b69591f4c}",
+                "hidden": false,
+                "icon": "C:/Users/%USERNAME%/icons/debian.png",
+                "name": "Vanaheim",
+                "opacity": 80,
+                "padding": "25",
+                "snapOnInput": true,
+                "tabColor": "#8B192C",
+                "useAcrylic": true
+            },
+            {
+                "closeOnExit": "graceful",
+                "colorScheme": "One Half Dark",
+                "cursorColor": "#FFFFFF",
+                "cursorHeight": 25,
+                "cursorShape": "vintage",
+                "font": 
+                {
+                    "face": "JetBrainsMono NF",
+                    "size": 11
+                },
+                "guid": "{5795db03-e1c4-4a77-b508-270b69591f4c}",
+                "hidden": false,
+                "name": "Ubuntu-20.04",
+                "opacity": 80,
+                "padding": "25",
+                "snapOnInput": true,
+                "source": "Windows.Terminal.Wsl",
+                "tabColor": "#C76E33",
                 "useAcrylic": true
             },
             {
@@ -122,7 +171,7 @@
                     "face": "JetBrainsMono NF",
                     "size": 11
                 },
-                "guid": "{}",
+                "guid": "{6795db03-e1c4-4a77-b508-270b69591f4c}",
                 "hidden": false,
                 "icon": "C:/Program Files/Multipass/bin/multipass_wt.ico",
                 "name": "Multipass",
